@@ -18,8 +18,9 @@ getDataFromFirestore().then((data) => {
 function MyPage() {
   return (
     <div>
-      <h1>Hello, World!</h1>
-      <p>This is a sample React component.</p>
+      <h1>テストページ</h1>
+      <h2>Firebase API データ取得, 環境変数設定</h2>
+      <p>コンソールログで確認できます</p>
     </div>
   );
 
